@@ -17,7 +17,7 @@ Bill of Materials:
 4.a: https://www.amazon.com/dp/B0BV7GJNQB/ref=twister_B0BHXFJQ3V?_encoding=UTF8&psc=1
 
 Sensor Connection Pinout
-NodeMCU <==> SHT-30
+NodeMCU <==> SHT-30 <br>
 D1      <==> Yellow (SCL)
 D2      <==> Blue (SDA)
 G       <==> Green
