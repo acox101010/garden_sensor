@@ -11,7 +11,7 @@
 #define WLAN_SSID       "YOUR SSID HERE"
 #define WLAN_PASS       "YOUR WIFI PW HERE"
 #define AIO_SERVER      "io.adafruit.com"
-#define AIO_SERVERPORT  1883
+#define AIO_SERVERPORT  "YOUR SERVER PORT HERE"
 #define AIO_USERNAME    "YOUR USERNAME YOUR CREATED ON ADAFRUIT"
 #define AIO_KEY         "YOUR ADAFRUIT IO "
 
