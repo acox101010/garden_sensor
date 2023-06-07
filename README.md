@@ -16,12 +16,12 @@ Bill of Materials:
 4) Outdoor Rated Enclosure 
 4.a: https://www.amazon.com/dp/B0BV7GJNQB/ref=twister_B0BHXFJQ3V?_encoding=UTF8&psc=1
 
-Sensor Connection Pinout
+Sensor Connection Pinout<br>
 NodeMCU <==> SHT-30 <br>
-D1      <==> Yellow (SCL)
-D2      <==> Blue (SDA)
-G       <==> Green
-3V3     <==> Red
+D1      <==> Yellow (SCL)<br>
+D2      <==> Blue (SDA)<br>
+G       <==> Green<br>
+3V3     <==> Red<br>
 
 Process
 1) connect the SHT-30 per the pinout above. 
