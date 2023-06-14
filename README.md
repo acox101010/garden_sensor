@@ -22,6 +22,7 @@ D1      <==> Yellow (SCL)<br>
 D2      <==> Blue (SDA)<br>
 G       <==> Green<br>
 3V3     <==> Red<br>
+<h3>If DeepSleep Variant is used there is an additional jumper from D0 (GPIO 16) to RST which will need to be removed when programming but installed during operation for wakeup purposes</h3><br>
 
 Process
 1) connect the SHT-30 per the pinout above. 
@@ -29,3 +30,4 @@ Process
 3) Create an account with Adafruit IO to be able to send and display data.
 4) Use the information from the previous step within the main code as outlined in the firmware.
 5) Flash the humnidity_01_public.io on your node mcu. Open the serial monitor to observe real time processing. 
+NOTE: humidityDeepSleep_01_public.ino has been added with a deep sleep parameter (ESP.deepSleep) which can be used if power issues are observed at times of low solar exposure. 
